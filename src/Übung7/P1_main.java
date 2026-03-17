@@ -1,12 +1,12 @@
 package Übung7;
 
-import Klassen.Bruch;
+import Klassen.Bruch1;
 
 public class P1_main {
     public static void main (String []args){
         multFrac(5,2,3,4);
-        Bruch b1 = new Bruch(5,2);
-        Bruch b2 = new Bruch(3,4);
+        Bruch1 b1 = new Bruch1(5,2);
+        Bruch1 b2 = new Bruch1(3,4);
         multFrac(b1, b2);
         System.out.println(b1);
     }
@@ -17,7 +17,7 @@ public class P1_main {
         System.out.println(z1 + " : " + n1);
     }
 
-    public static void multFrac(Bruch a, Bruch b){
+    public static void multFrac(Bruch1 a, Bruch1 b){
         int ergebnisZaehler;
         int ergebnisNenner;
         ergebnisZaehler = a.z * b.z;

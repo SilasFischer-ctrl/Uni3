@@ -1,10 +1,10 @@
 package Klassen;
 
-public class Bruch {
+public class Bruch1 {
     public int z;
     public int n;
 
-    public Bruch (int zaehler, int nenner){
+    public Bruch1(int zaehler, int nenner){
         z = zaehler;
         n = nenner;
     }
